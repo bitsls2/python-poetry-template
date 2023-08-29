@@ -1,0 +1,8 @@
+# pack-refs with: peeled fully-peeled sorted 
+9367225945d33af00ee5170b6676ff6ebcfe8411 refs/remotes/origin/dependabot/pip/mkdocs-material-9.1.17
+4aa08585f465403fcdc8387998ab37dc12d7b902 refs/remotes/origin/dependabot/pip/mkdocstrings-python-1.1.2
+4bf5b011b73147021d14ec0aa17fc29a15422618 refs/remotes/origin/dependabot/pip/mypy-1.4.1
+4bf0c71c3cf3cead7ce84f63828561ed7799300b refs/remotes/origin/dependabot/pip/pre-commit-3.3.3
+1f75e59b65d3f1e1fca6acdc3df4b54f39e4558f refs/remotes/origin/dependabot/pip/pytest-7.4.0
+d3b5110bc1f0955326387ac323ddb28c958a9bc2 refs/remotes/origin/gh-pages
+95570503166f0e83c285d448a5d0a58cd8e6389d refs/remotes/origin/main
