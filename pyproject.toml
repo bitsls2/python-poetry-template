@@ -32,7 +32,7 @@ safety = "^2.3.5"
 
 [tool.poetry.group.docs.dependencies]
 mkdocs = "^1.5.2"
-mkdocs-material = "^9.2.4"
+mkdocs-material = "^9.2.7"
 mkdocstrings = "^0.22.0"
 mkdocstrings-python = "^1.5.2"
 mkdocs-gen-files = "^0.5.0"
