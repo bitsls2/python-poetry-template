@@ -4,6 +4,16 @@
 This template is not intended to be a one-size-fits-all solution. It is designed to be a starting point for new dockerized python projects. It is up to you to decide which features you want to keep and which ones you want to remove. The goal is to provide a starting point that is easy to use and that can be easily adapted to your needs.
 </p>
 
+``` mermaid
+graph LR
+  A[Start] --> B{Error?};
+  B -->|Yes| C[Hmm...];
+  C --> D[Debug];
+  D --> B;
+  B ---->|No| E[Yay!];
+```
+
+
 > Optional directory can be safely removed if you do not need them.
 
 | Directory | Status | Description |
