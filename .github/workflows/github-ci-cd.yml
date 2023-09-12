@@ -44,7 +44,7 @@ jobs:
             type=semver,pattern={{major}}.{{minor}}
       -
         name: Docker login
-        uses: docker/login-action@v2
+        uses: docker/login-action@v3
         with:
           registry: ${{ secrets.DOCKER_REGISTRY }}
           username: ${{ secrets.DOCKER_USERNAME }}
@@ -82,7 +82,7 @@ jobs:
           echo "DOCKER_IMAGE=$DOCKER_IMAGE_DECRYPTED" >> $GITHUB_ENV
       -
         name: Docker login
-        uses: docker/login-action@v2
+        uses: docker/login-action@v3
         with:
           registry: ${{ secrets.DOCKER_REGISTRY }}
           username: ${{ secrets.DOCKER_USERNAME }}
@@ -130,7 +130,7 @@ jobs:
           echo "DOCKER_IMAGE=$DOCKER_IMAGE_DECRYPTED" >> $GITHUB_ENV
       -
         name: Docker login
-        uses: docker/login-action@v2
+        uses: docker/login-action@v3
         with:
           registry: ${{ secrets.DOCKER_REGISTRY }}
           username: ${{ secrets.DOCKER_USERNAME }}
@@ -158,7 +158,7 @@ jobs:
           echo "DOCKER_IMAGE=$DOCKER_IMAGE_DECRYPTED" >> $GITHUB_ENV
       -
         name: Docker login
-        uses: docker/login-action@v2
+        uses: docker/login-action@v3
         with:
           registry: ${{ secrets.DOCKER_REGISTRY }}
           username: ${{ secrets.DOCKER_USERNAME }}
