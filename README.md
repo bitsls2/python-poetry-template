@@ -143,6 +143,10 @@ This template is not intended to be a one-size-fits-all solution. It is designed
 This template is designed to be used with Github Actions. It includes a set of workflows that are triggered on push and merge request events. The workflows are defined in the <code>.github/workflows</code> directory. The following workflows are included:
 </p>
 
+<p align="justify">
+Note workflows need access to docker registry - read below for details.
+</p>
+
 - [Continuous integration](.github/workflows/github-ci-cd.yml)
    - Builds the application docker image (`dev` service by default).
    - Static analysis (code quality): [black](https://black.readthedocs.io/en/stable/), [pylint](https://www.pylint.org/), [flake8](https://flake8.pycqa.org/en/latest/), [isort](https://pycqa.github.io/isort/), [mypy](https://mypy.readthedocs.io/en/stable/).
